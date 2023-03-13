@@ -31,7 +31,7 @@ Route::post('tasks/create',[TasksController::class, 'createTask']);
 //Update task
 Route::put('tasks/update/{id}',[TasksController::class,'updateTask']);
 //Delete task
-Route::put('tasks/delete/{id}',[TasksController::class,'deleteTask']);
+Route::delete('tasks/delete/{id}',[TasksController::class,'deleteTask']);
 
 
 
